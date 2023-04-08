@@ -1,0 +1,23 @@
+.current-user-input {
+    background-color: white;
+    padding : 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.current-user-input textarea {
+    flex-grow: .8;
+    outline: none;
+    padding: 10px;
+}
+.current-user-input button {
+    background-color: rgb(78, 78, 255);
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}

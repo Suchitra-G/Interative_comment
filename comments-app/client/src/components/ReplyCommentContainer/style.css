@@ -1,0 +1,26 @@
+.reply-comment-container{
+    display: grid;
+    margin: 10px 0;
+    grid-template-columns: 40px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    grid-template-rows: auto;
+}
+.reply-comment-container>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.verticle-bar {
+    width: 1px;
+    /* height: 100%; */
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-color: rgb(123, 123, 165);
+}
+.reply-comment-container>div:nth-child(2) {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

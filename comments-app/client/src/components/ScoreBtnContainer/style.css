@@ -1,0 +1,27 @@
+.p-btn-container {
+    background-color: rgba(243, 242, 242, 0.877);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 40px;
+    flex-grow: 1;
+}
+.p-btn-container h5 {
+    font-size: 1rem;
+    color: rgb(65, 70, 163);
+}
+.p-btn-container button {
+    /* padding: 8px 10px; */
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(65, 70, 163);
+}
+.p-btn-container button:hover {
+    cursor: pointer;
+}
