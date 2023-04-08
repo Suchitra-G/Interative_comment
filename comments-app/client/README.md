@@ -1,8 +1,3 @@
-#Interative_comment
-
-
-
-click to visit website:https://suchitra-g.github.io/Interative_comment/
 
 # Getting Started with Create React App
 
